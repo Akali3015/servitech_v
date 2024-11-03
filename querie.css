@@ -1,0 +1,110 @@
+@media screen and (min-Width: 900px){
+    .header__open-nav-button{
+        display: none;
+    }
+    .nav__list-container{
+        display: flex;
+        height: auto;
+        position: static;
+        background-color: transparent;
+        width: 53%;
+        justify-content: space-around;
+    }
+    .nav__list{
+        flex-direction: row;
+        height: auto;
+        list-style: none;
+    }
+    .inic{
+        width: 50%;
+    }
+    .titulo{
+        font-size: 2em;
+    }
+    .seccion-calidad{
+        flex-direction: row;
+    }
+    .img-calidad{
+        width: 40%;
+    }
+    .contenedor-servicios__item{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex-grow: 5px;
+    }
+    .servicio-cont{
+        height: 375px;
+    } 
+    .cont-ubicanos{
+        flex-direction: row;
+    }
+    .empresa-img{
+        width: 40%;
+    }
+    .text-ubicanos img{
+        width: 40%;
+    }
+    .text-ubicanos p{
+        text-indent: 2em;
+    }
+    .titulo-final, .titulo-final span{
+        font-size: 1em;
+        color: #fff;
+    }
+    .info__tittle{
+        font-size: 5em;
+    }
+    .cont___section{
+        width: 70%;
+    }
+    .cont{
+        justify-content: start;
+    }
+    .cont__card{
+        max-width: 200px;
+    }
+    .inic__tittle{
+        font-size: 2.5em;
+    }
+    .inic__text-up{
+        font-size: 1.5em;
+    }
+    .inic__text-dwon{
+        font-size: 1.5em;
+    }
+    .inic__texto{
+        font-size: 1.5em;
+    }
+    .cont__form{
+        width: 70%;
+    }
+    .form__titulo{
+        font-size: 2.5rem;
+    }
+    .form{
+        width: 80%;
+    }
+    .borde{
+        padding: 15px;
+    }
+    .borde__titulo{
+        font-size: 1.5rem;
+    }
+    .descriccion{
+        font-size: 1.2rem;
+    }
+    .input{
+        width: 100%;
+        font-size: 1em;
+    }
+    .comentario{
+        height: 100px;
+        font-size: .8em;
+    }
+    .btn{
+        font-size: 1.1em; 
+    }
+    .content__tex{
+        font-size: .8em;
+    }
+}

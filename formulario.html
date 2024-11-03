@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SERVITECH</title>
+	<link rel="icon" type="image/x-icon" href="SERVITECH.jpg">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="querie.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxanium&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="container">
+            <nav class="nav">
+                <div class="nav__container">
+                    <a href="index.html" class="home-link">
+                        <img src="SERVITECH.jpg" alt="Logo">
+                        <span class="site-name">SERVITECH</span>
+                    </a>
+                    <input type="checkbox" class="header__checkbox" name="" id="open-menu">
+                    <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+                    <div class="nav__list-container">
+                        <ul class="nav__list">
+                            <li class="nav__li">
+                                <a class="nav__link" href="conocenos.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="servicios.html">Productos</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="formulario.html">Registrate</a>
+                            </li>
+                            <li class="nav__li">
+                               <a class="nav__link" href="ayuda.pdf" target="blank">Ayuda</a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </nav>
+        <main class="main">
+        	<section class="contenedor">
+        		<div class="cont__form">
+        			<h1 class="form__titulo">Registrate</h1>
+        			<form class="form">
+        				<fieldset class="borde">
+							<legend class="borde__titulo">Datos Personales</legend>
+							<label class="descriccion"> Nombre<input class="input" type="text" required></label>
+							<label class="descriccion">Apellido<input  class="input" type="text" required></label>
+							<label class="descriccion">Edad<input  class="input" type="number" required=""></label>
+						</fieldset>
+						<fieldset class="borde">
+							<legend class="borde__titulo">Como Contactarte</legend>
+							<label class="descriccion">Correo Electronico<input  class="input" type="email" placeholder="ejemplo@gmail.com" required=""></label>
+							<label class="descriccion">Comentarios <textarea class="comentario" placeholder="Dejanos tu mensaje"></textarea></label>
+						</fieldset>
+						<div class="cont__btn">
+							<input class="btn" type="submit" name="boton" value="Enviar">
+						</div>
+						
+        			</form>
+        		</div>
+        	</section>
+        </main>
+        <footer class="footer">
+            <h2 class="titulo-contactanos">Contactanos</h2>
+            <ul class="contactanos">
+                <li>
+                    <a target="blank" href="https://www.facebook.com/profile.php?id=100076320221265">
+                        <img class="ico__img little" src="fotos/facebook.png">
+                    </a></li>
+                <li>
+                    <a target="blank"href="https://www.instagram.com/servitech_vzla?igsh=MWtpb2Rqamxvemw1ag=="> 
+                        <img class="ico__img little" src="fotos/insta.png">
+                    </a>
+                </li>
+                <li>
+                    <img class="ico__wha" src="fotos/whasat.png"></li>
+                <li class="numeros">
+                    <div>
+                        <p> +58-412-5231213</p>
+                        <p> +58-424-5373771</p>
+                    </div>
+                </li>
+            </ul>
+                <h2 class="titulo-final"> Derechos reservados.</h2>
+        </footer>
+	</div>
+</body>
+</html>
